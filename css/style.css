@@ -1,0 +1,180 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+body{
+    background-color: #e4e8f0;
+}
+
+/* Navbar */
+#search{
+    color: #fff;
+}
+
+#heart{
+    color: #626262;
+}
+
+#cart{
+    color: #626262;
+}
+
+#person{
+    color: #626262;
+}
+
+
+
+/* Bottom Navbar */
+#bottom-navbar-container .container{
+    justify-content: flex-end;
+}
+
+#bottom-navbar-container a{
+    font-weight: 600;
+    color: #626262;
+}
+
+
+/* Banners container*/
+#banners-container{
+    padding: 0;
+}
+
+#banners-container .carousel-caption{
+    background-color: #adadad;;
+    width: 300px;
+    height: 150px;
+    border-radius: 10%;
+    bottom: 7em;
+    
+}
+
+#banners-container .carousel-caption h5{
+   padding-top: 23px;
+}
+
+#banners-container .carousel-caption h5{
+    font-size: 1.3rem;
+}
+
+/* Cards */
+#cards .card{
+    background-color:transparent;
+    border: none;
+}
+
+#cards  h5{
+    color: rgb(124, 42, 42);
+}
+
+.card p{
+    color: #796f6f;
+}
+
+.card .btn{
+    color: #fff;
+    background-color: rgb(124, 42, 42);
+}
+
+
+/* Service */
+.service i, h4{
+    color: rgb(124, 42, 42);
+}
+
+.service p{
+    color: #6d5c5c;
+}
+
+/* Cliente */
+
+.cliente h3, h4{
+    color: rgb(124, 42, 42);
+}
+
+.cliente img{
+    border-radius: 50%;
+}
+
+.cliente p{
+    color: #6d5c5c;
+} 
+
+
+/* Footer */
+
+.footer p{
+    color: rgb(124, 42, 42);
+    font-size: 18px;
+}
+
+.footer a{
+    text-align: center;
+
+}
+
+.footer i{
+    color: rgb(124, 42, 42);
+    font-size: 22px;
+    padding-right: 10px;
+}
+
+.copyright p{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.copyright p, a, i{
+    color: rgb(124, 42, 42);
+}
+
+
+/* Media query */
+
+@media(max-width:576px){
+    .navbar-brand{
+        text-align: center;
+    }
+    
+    #banners-container .carousel-caption{
+        background-color:#adadad;
+        width: 200px;
+        height: 85px;
+        bottom: 2em;
+        margin-left: 16px;
+    }
+
+    #banners-container .carousel-caption h5{
+        padding-top: 6px;
+     }
+
+    #banners-container .carousel-caption h5{
+        font-size: .9rem;
+        font-weight: 600;
+    }
+    
+    #banners-container .carousel-caption p{
+        font-size: .7rem;
+        font-weight: 600;
+    }
+
+}
+
+@media(min-width:768px){
+    .navbar-brand{
+        text-align: center;
+    }
+
+    #navbar-items{
+        min-height: 80%;
+        display: flex;
+    }
+
+    #search-form{
+        width: 50%;
+        margin: 0;
+    }
+
+    
+}
